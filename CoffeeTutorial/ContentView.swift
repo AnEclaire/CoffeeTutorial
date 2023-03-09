@@ -12,6 +12,14 @@ struct ContentView: View {
     @StateObject var history = History()
     @State private var showingAddScreen = false
     
+    var totalCaffeine: Int {
+        history.servings.map(\.caffeine).reduce(0, +) //add all values in array from 0 to n and add
+    }
+    
+    var totalCalories: Int {
+        history.servings.map(\.calories).reduce(0, +) //add all values in array from 0 to n and add
+    }
+    
     var body: some View {
         NavigationView {
             List {
@@ -20,6 +28,10 @@ struct ContentView: View {
                         showingAddScreen = true
                     }
                 } else {
+                    Section("Summary") {
+                        Text("Caffeien: \(totalCaffeine)mg")
+                        Text("Calories: \(totalCalories)")
+                    }
                     ForEach(history.servings) { serving in
                         HStack {
                             VStack(alignment: .leading) {
@@ -33,6 +45,24 @@ struct ContentView: View {
                             Spacer()
                             
                             Text("\(serving.caffeine)mg")
+                        }
+                        .swipeActions {
+                            Button(role: .destructive) {
+                                withAnimation {
+                                    history.delete(serving)
+                                }
+                            } label: {
+                                Label("Delete", systemImage: "trash")
+                            }
+                            
+                            Button {
+                                withAnimation {
+                                    history.reorder(serving)
+                                }
+                            } label: {
+                                Label("Repeat", systemImage: "repeat")
+                            }
+                            .tint(.blue)
                         }
                     }
                 }
