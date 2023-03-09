@@ -14,6 +14,16 @@
 		88F33EDB29B9B8BE0012FD37 /* CoffeeTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F33EDA29B9B8BE0012FD37 /* CoffeeTutorialTests.swift */; };
 		88F33EE529B9B8BE0012FD37 /* CoffeeTutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F33EE429B9B8BE0012FD37 /* CoffeeTutorialUITests.swift */; };
 		88F33EE729B9B8BE0012FD37 /* CoffeeTutorialUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F33EE629B9B8BE0012FD37 /* CoffeeTutorialUITestsLaunchTests.swift */; };
+		88F33EF429B9B8F00012FD37 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 88F33EF329B9B8F00012FD37 /* menu.json */; };
+		88F33EF629B9B9320012FD37 /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F33EF529B9B9320012FD37 /* Drink.swift */; };
+		88F33EF829B9B9B80012FD37 /* MenuSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F33EF729B9B9B80012FD37 /* MenuSection.swift */; };
+		88F33EFA29B9B9E30012FD37 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F33EF929B9B9E30012FD37 /* Menu.swift */; };
+		88F33EFC29B9BAF60012FD37 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F33EFB29B9BAF60012FD37 /* MenuView.swift */; };
+		88F33EFE29B9CE530012FD37 /* CustomizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F33EFD29B9CE530012FD37 /* CustomizeView.swift */; };
+		88F33F0029B9D1CC0012FD37 /* ConfigurationOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F33EFF29B9D1CC0012FD37 /* ConfigurationOption.swift */; };
+		88F33F0229B9D8100012FD37 /* Serving.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F33F0129B9D8100012FD37 /* Serving.swift */; };
+		88F33F0429B9D8E30012FD37 /* FileManager-DocumentsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F33F0329B9D8E30012FD37 /* FileManager-DocumentsDirectory.swift */; };
+		88F33F0629B9D9430012FD37 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F33F0529B9D9430012FD37 /* History.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +54,16 @@
 		88F33EE029B9B8BE0012FD37 /* CoffeeTutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeTutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88F33EE429B9B8BE0012FD37 /* CoffeeTutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeTutorialUITests.swift; sourceTree = "<group>"; };
 		88F33EE629B9B8BE0012FD37 /* CoffeeTutorialUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeTutorialUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		88F33EF329B9B8F00012FD37 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
+		88F33EF529B9B9320012FD37 /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
+		88F33EF729B9B9B80012FD37 /* MenuSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuSection.swift; sourceTree = "<group>"; };
+		88F33EF929B9B9E30012FD37 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		88F33EFB29B9BAF60012FD37 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		88F33EFD29B9CE530012FD37 /* CustomizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeView.swift; sourceTree = "<group>"; };
+		88F33EFF29B9D1CC0012FD37 /* ConfigurationOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationOption.swift; sourceTree = "<group>"; };
+		88F33F0129B9D8100012FD37 /* Serving.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Serving.swift; sourceTree = "<group>"; };
+		88F33F0329B9D8E30012FD37 /* FileManager-DocumentsDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager-DocumentsDirectory.swift"; sourceTree = "<group>"; };
+		88F33F0529B9D9430012FD37 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +116,16 @@
 			children = (
 				88F33EC929B9B8BD0012FD37 /* CoffeeTutorialApp.swift */,
 				88F33ECB29B9B8BD0012FD37 /* ContentView.swift */,
+				88F33EFB29B9BAF60012FD37 /* MenuView.swift */,
+				88F33EFD29B9CE530012FD37 /* CustomizeView.swift */,
+				88F33EF529B9B9320012FD37 /* Drink.swift */,
+				88F33F0129B9D8100012FD37 /* Serving.swift */,
+				88F33F0329B9D8E30012FD37 /* FileManager-DocumentsDirectory.swift */,
+				88F33F0529B9D9430012FD37 /* History.swift */,
+				88F33EFF29B9D1CC0012FD37 /* ConfigurationOption.swift */,
+				88F33EF729B9B9B80012FD37 /* MenuSection.swift */,
+				88F33EF929B9B9E30012FD37 /* Menu.swift */,
+				88F33EF329B9B8F00012FD37 /* menu.json */,
 				88F33ECD29B9B8BD0012FD37 /* Assets.xcassets */,
 				88F33ECF29B9B8BD0012FD37 /* Preview Content */,
 			);
@@ -231,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88F33EF429B9B8F00012FD37 /* menu.json in Resources */,
 				88F33ED129B9B8BD0012FD37 /* Preview Assets.xcassets in Resources */,
 				88F33ECE29B9B8BD0012FD37 /* Assets.xcassets in Resources */,
 			);
@@ -258,7 +289,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				88F33ECC29B9B8BD0012FD37 /* ContentView.swift in Sources */,
+				88F33EFC29B9BAF60012FD37 /* MenuView.swift in Sources */,
+				88F33EF629B9B9320012FD37 /* Drink.swift in Sources */,
+				88F33F0629B9D9430012FD37 /* History.swift in Sources */,
+				88F33EF829B9B9B80012FD37 /* MenuSection.swift in Sources */,
 				88F33ECA29B9B8BD0012FD37 /* CoffeeTutorialApp.swift in Sources */,
+				88F33F0429B9D8E30012FD37 /* FileManager-DocumentsDirectory.swift in Sources */,
+				88F33F0029B9D1CC0012FD37 /* ConfigurationOption.swift in Sources */,
+				88F33EFE29B9CE530012FD37 /* CustomizeView.swift in Sources */,
+				88F33EFA29B9B9E30012FD37 /* Menu.swift in Sources */,
+				88F33F0229B9D8100012FD37 /* Serving.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
